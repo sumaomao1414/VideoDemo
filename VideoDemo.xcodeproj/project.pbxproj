@@ -13,6 +13,24 @@
 		2E81E41F20B925B2006353FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E41E20B925B2006353FA /* Assets.xcassets */; };
 		2E81E42220B925B2006353FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E42020B925B2006353FA /* LaunchScreen.storyboard */; };
 		2E81E42520B925B2006353FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E42420B925B2006353FA /* main.m */; };
+		2E81E43020B92880006353FA /* TQMPMoviePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E42F20B92880006353FA /* TQMPMoviePlayerController.m */; };
+		2E81E43320B928AB006353FA /* TQMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E43220B928AB006353FA /* TQMPMoviePlayerViewController.m */; };
+		2E81E43620B928C5006353FA /* TQAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E43520B928C5006353FA /* TQAVPlayerViewController.m */; };
+		2E81E43920B928DC006353FA /* TQAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E43820B928DC006353FA /* TQAVPlayer.m */; };
+		2E81E4BC20B9AFB1006353FA /* TQVideoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4BB20B9AFB1006353FA /* TQVideoCaptureViewController.m */; };
+		2E81E4C220B9B12C006353FA /* TQImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4C120B9B12C006353FA /* TQImagePicker.m */; };
+		2E81E4CA20B9B227006353FA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4C520B9B227006353FA /* UIColor+Hex.m */; };
+		2E81E4CB20B9B227006353FA /* XCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4C620B9B227006353FA /* XCFileManager.m */; };
+		2E81E4CC20B9B227006353FA /* FMRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4C720B9B227006353FA /* FMRecordProgressView.m */; };
+		2E81E4CF20B9B39C006353FA /* FMVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4CD20B9B39C006353FA /* FMVideoPlayController.m */; };
+		2E81E4D620B9B3B2006353FA /* FMFileVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4D220B9B3B1006353FA /* FMFileVideoController.m */; };
+		2E81E4D720B9B3B2006353FA /* FMFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4D420B9B3B2006353FA /* FMFModel.m */; };
+		2E81E4D820B9B3B2006353FA /* FMFVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4D520B9B3B2006353FA /* FMFVideoView.m */; };
+		2E81E4E120B9B3EA006353FA /* AVAssetWriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4DA20B9B3E9006353FA /* AVAssetWriteManager.m */; };
+		2E81E4E220B9B3EA006353FA /* FMWVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4DB20B9B3E9006353FA /* FMWVideoView.m */; };
+		2E81E4E320B9B3EA006353FA /* FMWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4DC20B9B3E9006353FA /* FMWModel.m */; };
+		2E81E4E420B9B3EA006353FA /* FMWriteVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4E020B9B3EA006353FA /* FMWriteVideoController.m */; };
+		EC90EA76ACE0FA7B1FE333C4 /* libPods-VideoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,45 @@
 		2E81E42120B925B2006353FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E81E42320B925B2006353FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E81E42420B925B2006353FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E81E42E20B92880006353FA /* TQMPMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQMPMoviePlayerController.h; sourceTree = "<group>"; };
+		2E81E42F20B92880006353FA /* TQMPMoviePlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQMPMoviePlayerController.m; sourceTree = "<group>"; };
+		2E81E43120B928AB006353FA /* TQMPMoviePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQMPMoviePlayerViewController.h; sourceTree = "<group>"; };
+		2E81E43220B928AB006353FA /* TQMPMoviePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQMPMoviePlayerViewController.m; sourceTree = "<group>"; };
+		2E81E43420B928C5006353FA /* TQAVPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQAVPlayerViewController.h; sourceTree = "<group>"; };
+		2E81E43520B928C5006353FA /* TQAVPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQAVPlayerViewController.m; sourceTree = "<group>"; };
+		2E81E43720B928DC006353FA /* TQAVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQAVPlayer.h; sourceTree = "<group>"; };
+		2E81E43820B928DC006353FA /* TQAVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQAVPlayer.m; sourceTree = "<group>"; };
+		2E81E43A20B92A83006353FA /* 123456.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123456.mp4; sourceTree = "<group>"; };
+		2E81E4BA20B9AFB1006353FA /* TQVideoCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQVideoCaptureViewController.h; sourceTree = "<group>"; };
+		2E81E4BB20B9AFB1006353FA /* TQVideoCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQVideoCaptureViewController.m; sourceTree = "<group>"; };
+		2E81E4C020B9B12C006353FA /* TQImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQImagePicker.h; sourceTree = "<group>"; };
+		2E81E4C120B9B12C006353FA /* TQImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQImagePicker.m; sourceTree = "<group>"; };
+		2E81E4C420B9B227006353FA /* FMRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRecordProgressView.h; sourceTree = "<group>"; };
+		2E81E4C520B9B227006353FA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		2E81E4C620B9B227006353FA /* XCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFileManager.m; sourceTree = "<group>"; };
+		2E81E4C720B9B227006353FA /* FMRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRecordProgressView.m; sourceTree = "<group>"; };
+		2E81E4C820B9B227006353FA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		2E81E4C920B9B227006353FA /* XCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFileManager.h; sourceTree = "<group>"; };
+		2E81E4CD20B9B39C006353FA /* FMVideoPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMVideoPlayController.m; sourceTree = "<group>"; };
+		2E81E4CE20B9B39C006353FA /* FMVideoPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMVideoPlayController.h; sourceTree = "<group>"; };
+		2E81E4D020B9B3B1006353FA /* FMFileVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFileVideoController.h; sourceTree = "<group>"; };
+		2E81E4D120B9B3B1006353FA /* FMFVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFVideoView.h; sourceTree = "<group>"; };
+		2E81E4D220B9B3B1006353FA /* FMFileVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFileVideoController.m; sourceTree = "<group>"; };
+		2E81E4D320B9B3B2006353FA /* FMFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFModel.h; sourceTree = "<group>"; };
+		2E81E4D420B9B3B2006353FA /* FMFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFModel.m; sourceTree = "<group>"; };
+		2E81E4D520B9B3B2006353FA /* FMFVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFVideoView.m; sourceTree = "<group>"; };
+		2E81E4D920B9B3E9006353FA /* FMWVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWVideoView.h; sourceTree = "<group>"; };
+		2E81E4DA20B9B3E9006353FA /* AVAssetWriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAssetWriteManager.m; sourceTree = "<group>"; };
+		2E81E4DB20B9B3E9006353FA /* FMWVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWVideoView.m; sourceTree = "<group>"; };
+		2E81E4DC20B9B3E9006353FA /* FMWModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWModel.m; sourceTree = "<group>"; };
+		2E81E4DD20B9B3EA006353FA /* AVAssetWriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAssetWriteManager.h; sourceTree = "<group>"; };
+		2E81E4DE20B9B3EA006353FA /* FMWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWModel.h; sourceTree = "<group>"; };
+		2E81E4DF20B9B3EA006353FA /* FMWriteVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWriteVideoController.h; sourceTree = "<group>"; };
+		2E81E4E020B9B3EA006353FA /* FMWriteVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWriteVideoController.m; sourceTree = "<group>"; };
+		2E81E4E520B9B45D006353FA /* VideoHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoHeader.pch; sourceTree = "<group>"; };
+		5CDB83E1F47C435AD85738F9 /* Pods-VideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C36D6AC1643E0B88C1ED73F6 /* Pods-VideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC90EA76ACE0FA7B1FE333C4 /* libPods-VideoDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +102,8 @@
 			children = (
 				2E81E41420B925B0006353FA /* VideoDemo */,
 				2E81E41320B925B0006353FA /* Products */,
+				6F062D3DDF90C6A1F43004C9 /* Pods */,
+				CF4A2AE6B04F511622D58274 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +118,126 @@
 		2E81E41420B925B0006353FA /* VideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2E81E4C320B9B227006353FA /* Tool */,
+				2E81E42D20B92839006353FA /* 视频压缩 */,
+				2E81E42C20B92831006353FA /* 视频采集 */,
+				2E81E42B20B92825006353FA /* 视频播放 */,
 				2E81E41520B925B0006353FA /* AppDelegate.h */,
 				2E81E41620B925B0006353FA /* AppDelegate.m */,
 				2E81E41820B925B0006353FA /* ViewController.h */,
 				2E81E41920B925B0006353FA /* ViewController.m */,
 				2E81E41B20B925B0006353FA /* Main.storyboard */,
+				2E81E43A20B92A83006353FA /* 123456.mp4 */,
 				2E81E41E20B925B2006353FA /* Assets.xcassets */,
 				2E81E42020B925B2006353FA /* LaunchScreen.storyboard */,
 				2E81E42320B925B2006353FA /* Info.plist */,
 				2E81E42420B925B2006353FA /* main.m */,
+				2E81E4E520B9B45D006353FA /* VideoHeader.pch */,
 			);
 			path = VideoDemo;
+			sourceTree = "<group>";
+		};
+		2E81E42B20B92825006353FA /* 视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				2E81E42E20B92880006353FA /* TQMPMoviePlayerController.h */,
+				2E81E42F20B92880006353FA /* TQMPMoviePlayerController.m */,
+				2E81E43120B928AB006353FA /* TQMPMoviePlayerViewController.h */,
+				2E81E43220B928AB006353FA /* TQMPMoviePlayerViewController.m */,
+				2E81E43420B928C5006353FA /* TQAVPlayerViewController.h */,
+				2E81E43520B928C5006353FA /* TQAVPlayerViewController.m */,
+				2E81E43720B928DC006353FA /* TQAVPlayer.h */,
+				2E81E43820B928DC006353FA /* TQAVPlayer.m */,
+			);
+			path = "视频播放";
+			sourceTree = "<group>";
+		};
+		2E81E42C20B92831006353FA /* 视频采集 */ = {
+			isa = PBXGroup;
+			children = (
+				2E81E4BA20B9AFB1006353FA /* TQVideoCaptureViewController.h */,
+				2E81E4BB20B9AFB1006353FA /* TQVideoCaptureViewController.m */,
+				2E81E4CE20B9B39C006353FA /* FMVideoPlayController.h */,
+				2E81E4CD20B9B39C006353FA /* FMVideoPlayController.m */,
+				2E81E4BF20B9B0E3006353FA /* UIImagePicker */,
+				2E81E4BE20B9B0D6006353FA /* FileOut */,
+				2E81E4BD20B9B0C8006353FA /* AVAssetWriter */,
+			);
+			path = "视频采集";
+			sourceTree = "<group>";
+		};
+		2E81E42D20B92839006353FA /* 视频压缩 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "视频压缩";
+			sourceTree = "<group>";
+		};
+		2E81E4BD20B9B0C8006353FA /* AVAssetWriter */ = {
+			isa = PBXGroup;
+			children = (
+				2E81E4DD20B9B3EA006353FA /* AVAssetWriteManager.h */,
+				2E81E4DA20B9B3E9006353FA /* AVAssetWriteManager.m */,
+				2E81E4DE20B9B3EA006353FA /* FMWModel.h */,
+				2E81E4DC20B9B3E9006353FA /* FMWModel.m */,
+				2E81E4DF20B9B3EA006353FA /* FMWriteVideoController.h */,
+				2E81E4E020B9B3EA006353FA /* FMWriteVideoController.m */,
+				2E81E4D920B9B3E9006353FA /* FMWVideoView.h */,
+				2E81E4DB20B9B3E9006353FA /* FMWVideoView.m */,
+			);
+			path = AVAssetWriter;
+			sourceTree = "<group>";
+		};
+		2E81E4BE20B9B0D6006353FA /* FileOut */ = {
+			isa = PBXGroup;
+			children = (
+				2E81E4D020B9B3B1006353FA /* FMFileVideoController.h */,
+				2E81E4D220B9B3B1006353FA /* FMFileVideoController.m */,
+				2E81E4D320B9B3B2006353FA /* FMFModel.h */,
+				2E81E4D420B9B3B2006353FA /* FMFModel.m */,
+				2E81E4D120B9B3B1006353FA /* FMFVideoView.h */,
+				2E81E4D520B9B3B2006353FA /* FMFVideoView.m */,
+			);
+			path = FileOut;
+			sourceTree = "<group>";
+		};
+		2E81E4BF20B9B0E3006353FA /* UIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2E81E4C020B9B12C006353FA /* TQImagePicker.h */,
+				2E81E4C120B9B12C006353FA /* TQImagePicker.m */,
+			);
+			path = UIImagePicker;
+			sourceTree = "<group>";
+		};
+		2E81E4C320B9B227006353FA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2E81E4C420B9B227006353FA /* FMRecordProgressView.h */,
+				2E81E4C720B9B227006353FA /* FMRecordProgressView.m */,
+				2E81E4C820B9B227006353FA /* UIColor+Hex.h */,
+				2E81E4C520B9B227006353FA /* UIColor+Hex.m */,
+				2E81E4C920B9B227006353FA /* XCFileManager.h */,
+				2E81E4C620B9B227006353FA /* XCFileManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6F062D3DDF90C6A1F43004C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CDB83E1F47C435AD85738F9 /* Pods-VideoDemo.debug.xcconfig */,
+				C36D6AC1643E0B88C1ED73F6 /* Pods-VideoDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF4A2AE6B04F511622D58274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E81E42820B925B2006353FA /* Build configuration list for PBXNativeTarget "VideoDemo" */;
 			buildPhases = (
+				1D8FBA399D9991CDEBA126EE /* [CP] Check Pods Manifest.lock */,
 				2E81E40E20B925B0006353FA /* Sources */,
 				2E81E40F20B925B0006353FA /* Frameworks */,
 				2E81E41020B925B0006353FA /* Resources */,
@@ -136,13 +306,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D8FBA399D9991CDEBA126EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E81E40E20B925B0006353FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E81E4D620B9B3B2006353FA /* FMFileVideoController.m in Sources */,
+				2E81E4D720B9B3B2006353FA /* FMFModel.m in Sources */,
+				2E81E4CF20B9B39C006353FA /* FMVideoPlayController.m in Sources */,
+				2E81E4BC20B9AFB1006353FA /* TQVideoCaptureViewController.m in Sources */,
+				2E81E4D820B9B3B2006353FA /* FMFVideoView.m in Sources */,
+				2E81E4CA20B9B227006353FA /* UIColor+Hex.m in Sources */,
 				2E81E41A20B925B0006353FA /* ViewController.m in Sources */,
+				2E81E4E320B9B3EA006353FA /* FMWModel.m in Sources */,
+				2E81E4E420B9B3EA006353FA /* FMWriteVideoController.m in Sources */,
+				2E81E4C220B9B12C006353FA /* TQImagePicker.m in Sources */,
 				2E81E42520B925B2006353FA /* main.m in Sources */,
+				2E81E4CB20B9B227006353FA /* XCFileManager.m in Sources */,
+				2E81E43320B928AB006353FA /* TQMPMoviePlayerViewController.m in Sources */,
+				2E81E4CC20B9B227006353FA /* FMRecordProgressView.m in Sources */,
+				2E81E43920B928DC006353FA /* TQAVPlayer.m in Sources */,
+				2E81E4E220B9B3EA006353FA /* FMWVideoView.m in Sources */,
+				2E81E43620B928C5006353FA /* TQAVPlayerViewController.m in Sources */,
+				2E81E4E120B9B3EA006353FA /* AVAssetWriteManager.m in Sources */,
+				2E81E43020B92880006353FA /* TQMPMoviePlayerController.m in Sources */,
 				2E81E41720B925B0006353FA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,15 +489,19 @@
 		};
 		2E81E42920B925B2006353FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDB83E1F47C435AD85738F9 /* Pods-VideoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72GL8EDUNH;
+				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
 				INFOPLIST_FILE = VideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tianque.VideoDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianque.clue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,15 +509,19 @@
 		};
 		2E81E42A20B925B2006353FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36D6AC1643E0B88C1ED73F6 /* Pods-VideoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72GL8EDUNH;
+				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
 				INFOPLIST_FILE = VideoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tianque.VideoDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianque.clue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
