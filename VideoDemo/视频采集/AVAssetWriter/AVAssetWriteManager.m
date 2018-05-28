@@ -169,7 +169,7 @@
     __weak __typeof(self)weakSelf = self;
     if(_assetWriter && _assetWriter.status == AVAssetWriterStatusWriting){
         dispatch_async(self.writeQueue, ^{
-            [_assetWriter finishWritingWithCompletionHandler:^{
+            [self->_assetWriter finishWritingWithCompletionHandler:^{
                 ALAssetsLibrary *lib = [[ALAssetsLibrary alloc] init];
                 [lib writeVideoAtPathToSavedPhotosAlbum:weakSelf.videoUrl completionBlock:nil];
                 

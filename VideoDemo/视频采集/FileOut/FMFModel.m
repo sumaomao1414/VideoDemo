@@ -419,7 +419,9 @@
         
         self.recordState = FMRecordStateFinish;
         //剪裁成正方形
-        //[self cutVideoWithFinished:nil];
+       // [self cutVideoWithFinished:nil];
+        //导出
+        [self convertVideoWithURL:self.videoUrl];
         
     }
     
@@ -444,44 +446,44 @@
 }
 
 
-//#pragma mark - 导出视频
-//- (void)convertVideoWithURL:(NSURL *)fileUrl{
-//    
-//    __block NSURL *outputFileURL = fileUrl;
-//    NSString *path = [self createVideoFilePath];
-//    AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:outputFileURL options:nil];
-//    NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
-//    __weak __typeof(self)weakSelf = self;
-//    if ([compatiblePresets containsObject:AVAssetExportPresetMediumQuality])
-//    {
-//        AVAssetExportSession *exportSession = [[AVAssetExportSession alloc]initWithAsset:avAsset presetName:AVAssetExportPresetMediumQuality];
-//        exportSession.outputURL = [[NSURL alloc] initFileURLWithPath:path];
-//        exportSession.outputFileType = AVFileTypeMPEG4;
-//        [exportSession exportAsynchronouslyWithCompletionHandler:^{
-//            
-//            switch ([exportSession status]) {
-//                case AVAssetExportSessionStatusFailed:
-//                    break;
-//                case AVAssetExportSessionStatusCancelled:
-//                    break;
-//                case AVAssetExportSessionStatusCompleted:
-//                    
-//                    [weakSelf completeWithUrl:exportSession.outputURL];
-//                    break;
-//                default:
-//                    break;
-//            }
-//        }];
-//    }
-//}
+#pragma mark - AVAssetExportSession导出视频
+- (void)convertVideoWithURL:(NSURL *)fileUrl{
+    
+    __block NSURL *outputFileURL = fileUrl;
+    NSString *path = [self createVideoFilePath];
+    AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:outputFileURL options:nil];
+    NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
+    __weak __typeof(self)weakSelf = self;
+    if ([compatiblePresets containsObject:AVAssetExportPresetMediumQuality])
+    {
+        AVAssetExportSession *exportSession = [[AVAssetExportSession alloc]initWithAsset:avAsset presetName:AVAssetExportPresetMediumQuality];
+        exportSession.outputURL = [[NSURL alloc] initFileURLWithPath:path];
+        exportSession.outputFileType = AVFileTypeMPEG4;
+        [exportSession exportAsynchronouslyWithCompletionHandler:^{
+            
+            switch ([exportSession status]) {
+                case AVAssetExportSessionStatusFailed:
+                    break;
+                case AVAssetExportSessionStatusCancelled:
+                    break;
+                case AVAssetExportSessionStatusCompleted:
+                    
+                    [weakSelf completeWithUrl:exportSession.outputURL];
+                    break;
+                default:
+                    break;
+            }
+        }];
+    }
+}
 // 写入相册
-//- (void)completeWithUrl:(NSURL *)url{
-//    ALAssetsLibrary *lib = [[ALAssetsLibrary alloc] init];
-//    [lib writeVideoAtPathToSavedPhotosAlbum:url completionBlock:nil];
-//}
+- (void)completeWithUrl:(NSURL *)url{
+    ALAssetsLibrary *lib = [[ALAssetsLibrary alloc] init];
+    [lib writeVideoAtPathToSavedPhotosAlbum:url completionBlock:nil];
+}
 
 
-///完成剪裁
+#pragma mark - 完成剪裁
 //test
 - (void)cutVideoWithFinished:(void (^)(void))finished
 {
