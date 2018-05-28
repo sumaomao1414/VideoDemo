@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549193419.580163"
+            timestampString = "549198964.275966"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "492"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549193419.580246"
+            timestampString = "549198964.276282"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "471"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549193419.5803109"
+            timestampString = "549198964.2763439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "452"
@@ -58,7 +58,7 @@
                   moduleName = "VideoDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maomao/Desktop/day%20by%20day/VideoDemo/VideoDemo/%E8%A7%86%E9%A2%91%E9%87%87%E9%9B%86/FileOut/FMFModel.m"
-                  timestampString = "549193419.6100301"
+                  timestampString = "549198964.3146631"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "452"
@@ -73,7 +73,7 @@
                   moduleName = "VideoDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maomao/Desktop/day%20by%20day/VideoDemo/VideoDemo/%E8%A7%86%E9%A2%91%E9%87%87%E9%9B%86/FileOut/FMFModel.m"
-                  timestampString = "549193419.611891"
+                  timestampString = "549198964.316431"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "452"
@@ -88,7 +88,7 @@
                   moduleName = "VideoDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maomao/Desktop/day%20by%20day/VideoDemo/VideoDemo/%E8%A7%86%E9%A2%91%E9%87%87%E9%9B%86/FileOut/FMFModel.m"
-                  timestampString = "549193419.614431"
+                  timestampString = "549198964.318022"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "452"
@@ -105,7 +105,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549193419.580372"
+            timestampString = "549198964.276408"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "418"
@@ -127,6 +127,32 @@
             startingLineNumber = "340"
             endingLineNumber = "340"
             landmarkName = "-captureOutput:didOutputSampleBuffer:fromConnection:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VideoDemo/&#x89c6;&#x9891;&#x538b;&#x7f29;/TQVideoDecodeController.m"
+            timestampString = "549198964.276526"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-onInputStart"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

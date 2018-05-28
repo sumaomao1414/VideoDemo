@@ -316,10 +316,10 @@
             </objects>
             <point key="canvasLocation" x="1012" y="648.12593703148434"/>
         </scene>
-        <!--View Controller-->
+        <!--Compress View Controller-->
         <scene sceneID="naY-Gb-ZNC">
             <objects>
-                <viewController id="3Ov-iR-Sd2" sceneMemberID="viewController">
+                <viewController restorationIdentifier="TQCompressViewController" storyboardIdentifier="TQCompressViewController" id="3Ov-iR-Sd2" customClass="TQCompressViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="74f-pV-kMF"/>
                         <viewControllerLayoutGuide type="bottom" id="g6f-RG-l7i"/>
@@ -327,13 +327,74 @@
                     <view key="view" contentMode="scaleToFill" id="y2d-ay-uCe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZp-Ov-aWA">
+                                <rect key="frame" x="55" y="185" width="264" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AVAssetExportSession"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZl-OS-ING">
+                                <rect key="frame" x="55" y="237" width="264" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="VideoToolBox  硬编码"/>
+                                <connections>
+                                    <segue destination="PRp-2g-GU5" kind="push" id="Mcr-Ce-qB1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvD-Rc-brS">
+                                <rect key="frame" x="55" y="284" width="264" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="vVideoToolBox  硬解码"/>
+                                <connections>
+                                    <segue destination="pY5-tr-TQ4" kind="push" id="5mZ-pU-Hcw"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="780-rF-9QB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mvQ-hB-Mst" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049" y="1399"/>
+            <point key="canvasLocation" x="1048.8" y="1398.3508245877063"/>
+        </scene>
+        <!--Video Encode Controller-->
+        <scene sceneID="dr3-KD-Owz">
+            <objects>
+                <viewController restorationIdentifier="TQVideoEncodeController" storyboardIdentifier="TQVideoEncodeController" id="PRp-2g-GU5" customClass="TQVideoEncodeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HRe-c4-NyG"/>
+                        <viewControllerLayoutGuide type="bottom" id="YSA-87-Ihs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jZn-U7-4AG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ALo-Z9-kDs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Pe-uF-Jwh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1967" y="1256"/>
+        </scene>
+        <!--Video Decode Controller-->
+        <scene sceneID="ot1-6p-Kfk">
+            <objects>
+                <viewController restorationIdentifier="TQVideoDecodeController" storyboardIdentifier="TQVideoDecodeController" id="pY5-tr-TQ4" customClass="TQVideoDecodeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MxK-bU-FJ0"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Je-Og-4NW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iEO-FB-YtM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xOI-ek-Tby"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wps-Yk-Jch" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1951" y="1949"/>
         </scene>
     </scenes>
 </document>

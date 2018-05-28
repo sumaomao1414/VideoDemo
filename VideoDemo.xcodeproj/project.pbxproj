@@ -30,6 +30,15 @@
 		2E81E4E220B9B3EA006353FA /* FMWVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4DB20B9B3E9006353FA /* FMWVideoView.m */; };
 		2E81E4E320B9B3EA006353FA /* FMWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4DC20B9B3E9006353FA /* FMWModel.m */; };
 		2E81E4E420B9B3EA006353FA /* FMWriteVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4E020B9B3EA006353FA /* FMWriteVideoController.m */; };
+		2E81E4EB20BC1273006353FA /* TQVideoEncodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4EA20BC1273006353FA /* TQVideoEncodeController.m */; };
+		2E81E4EE20BC128F006353FA /* TQVideoDecodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4ED20BC128F006353FA /* TQVideoDecodeController.m */; };
+		2E81E4F020BC1300006353FA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E4EF20BC1300006353FA /* VideoToolbox.framework */; };
+		2E81E4F320BC1522006353FA /* LYOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4F220BC1522006353FA /* LYOpenGLView.m */; };
+		2E81E4F520BC159A006353FA /* abc.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E4F420BC159A006353FA /* abc.h264 */; };
+		2E81E4F720BC1658006353FA /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E4F620BC1658006353FA /* Shader.fsh */; };
+		2E81E4F920BC165C006353FA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E4F820BC165C006353FA /* Shader.vsh */; };
+		2E81E4FC20BC19AE006353FA /* TQCompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4FB20BC19AE006353FA /* TQCompressViewController.m */; };
+		2E81E4FE20BC1C54006353FA /* qwe.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E4FD20BC1C54006353FA /* qwe.h264 */; };
 		EC90EA76ACE0FA7B1FE333C4 /* libPods-VideoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +89,19 @@
 		2E81E4DF20B9B3EA006353FA /* FMWriteVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWriteVideoController.h; sourceTree = "<group>"; };
 		2E81E4E020B9B3EA006353FA /* FMWriteVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWriteVideoController.m; sourceTree = "<group>"; };
 		2E81E4E520B9B45D006353FA /* VideoHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoHeader.pch; sourceTree = "<group>"; };
+		2E81E4E920BC1273006353FA /* TQVideoEncodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQVideoEncodeController.h; sourceTree = "<group>"; };
+		2E81E4EA20BC1273006353FA /* TQVideoEncodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQVideoEncodeController.m; sourceTree = "<group>"; };
+		2E81E4EC20BC128F006353FA /* TQVideoDecodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQVideoDecodeController.h; sourceTree = "<group>"; };
+		2E81E4ED20BC128F006353FA /* TQVideoDecodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQVideoDecodeController.m; sourceTree = "<group>"; };
+		2E81E4EF20BC1300006353FA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2E81E4F120BC1522006353FA /* LYOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYOpenGLView.h; sourceTree = "<group>"; };
+		2E81E4F220BC1522006353FA /* LYOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOpenGLView.m; sourceTree = "<group>"; };
+		2E81E4F420BC159A006353FA /* abc.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.h264; sourceTree = "<group>"; };
+		2E81E4F620BC1658006353FA /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2E81E4F820BC165C006353FA /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		2E81E4FA20BC19AE006353FA /* TQCompressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQCompressViewController.h; sourceTree = "<group>"; };
+		2E81E4FB20BC19AE006353FA /* TQCompressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQCompressViewController.m; sourceTree = "<group>"; };
+		2E81E4FD20BC1C54006353FA /* qwe.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qwe.h264; sourceTree = "<group>"; };
 		5CDB83E1F47C435AD85738F9 /* Pods-VideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C36D6AC1643E0B88C1ED73F6 /* Pods-VideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E81E4F020BC1300006353FA /* VideoToolbox.framework in Frameworks */,
 				EC90EA76ACE0FA7B1FE333C4 /* libPods-VideoDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +141,8 @@
 		2E81E41420B925B0006353FA /* VideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2E81E4F820BC165C006353FA /* Shader.vsh */,
+				2E81E4F620BC1658006353FA /* Shader.fsh */,
 				2E81E4C320B9B227006353FA /* Tool */,
 				2E81E42D20B92839006353FA /* 视频压缩 */,
 				2E81E42C20B92831006353FA /* 视频采集 */,
@@ -169,6 +194,16 @@
 		2E81E42D20B92839006353FA /* 视频压缩 */ = {
 			isa = PBXGroup;
 			children = (
+				2E81E4F420BC159A006353FA /* abc.h264 */,
+				2E81E4FD20BC1C54006353FA /* qwe.h264 */,
+				2E81E4FA20BC19AE006353FA /* TQCompressViewController.h */,
+				2E81E4FB20BC19AE006353FA /* TQCompressViewController.m */,
+				2E81E4E920BC1273006353FA /* TQVideoEncodeController.h */,
+				2E81E4EA20BC1273006353FA /* TQVideoEncodeController.m */,
+				2E81E4EC20BC128F006353FA /* TQVideoDecodeController.h */,
+				2E81E4ED20BC128F006353FA /* TQVideoDecodeController.m */,
+				2E81E4F120BC1522006353FA /* LYOpenGLView.h */,
+				2E81E4F220BC1522006353FA /* LYOpenGLView.m */,
 			);
 			path = "视频压缩";
 			sourceTree = "<group>";
@@ -235,6 +270,7 @@
 		CF4A2AE6B04F511622D58274 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E81E4EF20BC1300006353FA /* VideoToolbox.framework */,
 				D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */,
 			);
 			name = Frameworks;
@@ -298,9 +334,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E81E4F520BC159A006353FA /* abc.h264 in Resources */,
+				2E81E4FE20BC1C54006353FA /* qwe.h264 in Resources */,
 				2E81E42220B925B2006353FA /* LaunchScreen.storyboard in Resources */,
+				2E81E4F920BC165C006353FA /* Shader.vsh in Resources */,
 				2E81E41F20B925B2006353FA /* Assets.xcassets in Resources */,
 				2E81E41D20B925B0006353FA /* Main.storyboard in Resources */,
+				2E81E4F720BC1658006353FA /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +377,7 @@
 				2E81E4CF20B9B39C006353FA /* FMVideoPlayController.m in Sources */,
 				2E81E4BC20B9AFB1006353FA /* TQVideoCaptureViewController.m in Sources */,
 				2E81E4D820B9B3B2006353FA /* FMFVideoView.m in Sources */,
+				2E81E4FC20BC19AE006353FA /* TQCompressViewController.m in Sources */,
 				2E81E4CA20B9B227006353FA /* UIColor+Hex.m in Sources */,
 				2E81E41A20B925B0006353FA /* ViewController.m in Sources */,
 				2E81E4E320B9B3EA006353FA /* FMWModel.m in Sources */,
@@ -344,12 +385,15 @@
 				2E81E4C220B9B12C006353FA /* TQImagePicker.m in Sources */,
 				2E81E42520B925B2006353FA /* main.m in Sources */,
 				2E81E4CB20B9B227006353FA /* XCFileManager.m in Sources */,
+				2E81E4F320BC1522006353FA /* LYOpenGLView.m in Sources */,
 				2E81E43320B928AB006353FA /* TQMPMoviePlayerViewController.m in Sources */,
 				2E81E4CC20B9B227006353FA /* FMRecordProgressView.m in Sources */,
 				2E81E43920B928DC006353FA /* TQAVPlayer.m in Sources */,
 				2E81E4E220B9B3EA006353FA /* FMWVideoView.m in Sources */,
+				2E81E4EE20BC128F006353FA /* TQVideoDecodeController.m in Sources */,
 				2E81E43620B928C5006353FA /* TQAVPlayerViewController.m in Sources */,
 				2E81E4E120B9B3EA006353FA /* AVAssetWriteManager.m in Sources */,
+				2E81E4EB20BC1273006353FA /* TQVideoEncodeController.m in Sources */,
 				2E81E43020B92880006353FA /* TQMPMoviePlayerController.m in Sources */,
 				2E81E41720B925B0006353FA /* AppDelegate.m in Sources */,
 			);
@@ -496,7 +540,7 @@
 				DEVELOPMENT_TEAM = 72GL8EDUNH;
 				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
 				INFOPLIST_FILE = VideoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,7 +560,7 @@
 				DEVELOPMENT_TEAM = 72GL8EDUNH;
 				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
 				INFOPLIST_FILE = VideoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
