@@ -16,6 +16,22 @@
 
 #define IS_IPHONE_4 (fabs((double)[[UIScreen mainScreen]bounds].size.height - (double)480) < DBL_EPSILON)
 
+
+/**
+ 对所用的几个类做简单说明
+ 
+ AVCaptureSession：媒体（音、视频）捕获会话，负责把捕获的音视频数据输出到输出设备中。一个AVCaptureSession可以有多个输入输出流。
+ 
+ AVCaptureDevice：输入设备，包括麦克风、摄像头，通过该对象可以设置物理设备的一些属性（例如相机聚焦等）。
+ 
+ AVCaptureDeviceInput：设备输入数据管理对象，可以根据AVCaptureDevice创建对应的AVCaptureDeviceInput对象，该对象将会被添加到AVCaptureSession中管理。
+ 
+ AVCaptureVideoPreviewLayer：相机拍摄预览图层，是CALayer的子类，使用该对象可以看到视频录制效果，创建该对象需要指定对应的AVCaptureSession对象。
+ 
+ AVCaptureMovieFileOutput：视频输出流。把一个输入或者输出添加到AVCaptureSession之后AVCaptureSession就会在所有相符的输入、输出设备之间 建立连接（AVCaptionConnection)。
+
+ */
+
 @interface FMFModel ()<AVCaptureFileOutputRecordingDelegate>
 
 @property (nonatomic, weak) UIView *superView;
