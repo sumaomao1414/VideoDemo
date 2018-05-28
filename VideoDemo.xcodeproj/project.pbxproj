@@ -39,6 +39,15 @@
 		2E81E4F920BC165C006353FA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E4F820BC165C006353FA /* Shader.vsh */; };
 		2E81E4FC20BC19AE006353FA /* TQCompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E81E4FB20BC19AE006353FA /* TQCompressViewController.m */; };
 		2E81E4FE20BC1C54006353FA /* qwe.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 2E81E4FD20BC1C54006353FA /* qwe.h264 */; };
+		2E81E58520BC4454006353FA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E58420BC4454006353FA /* AudioToolbox.framework */; };
+		2E81E58720BC4460006353FA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E58620BC4460006353FA /* OpenGLES.framework */; };
+		2E81E58920BC446F006353FA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E58820BC446F006353FA /* CoreImage.framework */; };
+		2E81E58B20BC447A006353FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E58A20BC447A006353FA /* CoreGraphics.framework */; };
+		2E81E58D20BC4480006353FA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E58C20BC4480006353FA /* CoreMedia.framework */; };
+		2E81E58F20BC449C006353FA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E58E20BC449B006353FA /* libz.tbd */; };
+		2E81E59120BC44B2006353FA /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E59020BC44B2006353FA /* libbz2.tbd */; };
+		2E81E59320BC44C3006353FA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E59220BC44C3006353FA /* libiconv.tbd */; };
+		2E81E59520BC44D6006353FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E81E59420BC44D6006353FA /* AVFoundation.framework */; };
 		EC90EA76ACE0FA7B1FE333C4 /* libPods-VideoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +111,15 @@
 		2E81E4FA20BC19AE006353FA /* TQCompressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQCompressViewController.h; sourceTree = "<group>"; };
 		2E81E4FB20BC19AE006353FA /* TQCompressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQCompressViewController.m; sourceTree = "<group>"; };
 		2E81E4FD20BC1C54006353FA /* qwe.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qwe.h264; sourceTree = "<group>"; };
+		2E81E58420BC4454006353FA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2E81E58620BC4460006353FA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2E81E58820BC446F006353FA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2E81E58A20BC447A006353FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E81E58C20BC4480006353FA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2E81E58E20BC449B006353FA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2E81E59020BC44B2006353FA /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		2E81E59220BC44C3006353FA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		2E81E59420BC44D6006353FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5CDB83E1F47C435AD85738F9 /* Pods-VideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C36D6AC1643E0B88C1ED73F6 /* Pods-VideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +130,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E81E59520BC44D6006353FA /* AVFoundation.framework in Frameworks */,
+				2E81E59320BC44C3006353FA /* libiconv.tbd in Frameworks */,
+				2E81E59120BC44B2006353FA /* libbz2.tbd in Frameworks */,
+				2E81E58F20BC449C006353FA /* libz.tbd in Frameworks */,
+				2E81E58D20BC4480006353FA /* CoreMedia.framework in Frameworks */,
+				2E81E58B20BC447A006353FA /* CoreGraphics.framework in Frameworks */,
+				2E81E58920BC446F006353FA /* CoreImage.framework in Frameworks */,
+				2E81E58720BC4460006353FA /* OpenGLES.framework in Frameworks */,
+				2E81E58520BC4454006353FA /* AudioToolbox.framework in Frameworks */,
 				2E81E4F020BC1300006353FA /* VideoToolbox.framework in Frameworks */,
 				EC90EA76ACE0FA7B1FE333C4 /* libPods-VideoDemo.a in Frameworks */,
 			);
@@ -270,6 +297,15 @@
 		CF4A2AE6B04F511622D58274 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E81E59420BC44D6006353FA /* AVFoundation.framework */,
+				2E81E59220BC44C3006353FA /* libiconv.tbd */,
+				2E81E59020BC44B2006353FA /* libbz2.tbd */,
+				2E81E58E20BC449B006353FA /* libz.tbd */,
+				2E81E58C20BC4480006353FA /* CoreMedia.framework */,
+				2E81E58A20BC447A006353FA /* CoreGraphics.framework */,
+				2E81E58820BC446F006353FA /* CoreImage.framework */,
+				2E81E58620BC4460006353FA /* OpenGLES.framework */,
+				2E81E58420BC4454006353FA /* AudioToolbox.framework */,
 				2E81E4EF20BC1300006353FA /* VideoToolbox.framework */,
 				D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */,
 			);
@@ -539,12 +575,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72GL8EDUNH;
 				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = VideoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tianque.clue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -559,12 +597,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72GL8EDUNH;
 				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = VideoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tianque.clue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
