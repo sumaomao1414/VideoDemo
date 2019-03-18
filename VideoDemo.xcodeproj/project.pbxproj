@@ -120,6 +120,7 @@
 		2E81E59020BC44B2006353FA /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		2E81E59220BC44C3006353FA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		2E81E59420BC44D6006353FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2E9B08D92112FFDE00D351B1 /* big_buck_bunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = big_buck_bunny.mp4; sourceTree = "<group>"; };
 		5CDB83E1F47C435AD85738F9 /* Pods-VideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C36D6AC1643E0B88C1ED73F6 /* Pods-VideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoDemo/Pods-VideoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D97279959E41A6F7D819EAA4 /* libPods-VideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +181,7 @@
 				2E81E41920B925B0006353FA /* ViewController.m */,
 				2E81E41B20B925B0006353FA /* Main.storyboard */,
 				2E81E43A20B92A83006353FA /* 123456.mp4 */,
+				2E9B08D92112FFDE00D351B1 /* big_buck_bunny.mp4 */,
 				2E81E41E20B925B2006353FA /* Assets.xcassets */,
 				2E81E42020B925B2006353FA /* LaunchScreen.storyboard */,
 				2E81E42320B925B2006353FA /* Info.plist */,
@@ -577,7 +579,7 @@
 				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = VideoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,7 +601,7 @@
 				GCC_PREFIX_HEADER = VideoDemo/VideoHeader.pch;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = VideoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

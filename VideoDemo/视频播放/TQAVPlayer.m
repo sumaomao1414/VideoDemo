@@ -75,8 +75,9 @@
     self.title = @"TQAVPlayer";
     //1
     //网络
-    _playerItem = [[AVPlayerItem alloc]initWithURL:[NSURL URLWithString:@"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"]];
-    
+    _playerItem = [[AVPlayerItem alloc]initWithURL:[NSURL URLWithString:@"http://192.168.10.25:8086/upload/clueNotice/mp4/2018/8/2/16132245565.mp4"]];
+    //http://192.168.10.25:8086/upload/clueNotice/mp4/2018/8/2/16132245565.mp4
+    //http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
     //本地
 //    NSString* _moviePath= @"/Users/maomao/Desktop/day by day/VideoDemo/VideoDemo/123456.mp4";
 //    AVPlayerItem *playerItem = [[AVPlayerItem alloc]initWithURL:[NSURL fileURLWithPath:_moviePath]];

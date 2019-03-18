@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549213053.4805"
+            timestampString = "549340888.583367"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "508"
             endingLineNumber = "508"
-            landmarkName = "-convertVideoWithURL:"
+            landmarkName = "-cutVideoWithFinished:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549213053.480834"
+            timestampString = "549340888.5836819"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "487"
@@ -42,13 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549213053.4808969"
+            timestampString = "549340888.583746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "468"
             endingLineNumber = "468"
-            landmarkName = "FMFModel"
-            landmarkType = "3">
+            landmarkName = "-convertVideoWithURL:"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -58,12 +58,12 @@
                   moduleName = "VideoDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maomao/Desktop/day%20by%20day/VideoDemo/VideoDemo/%E8%A7%86%E9%A2%91%E9%87%87%E9%9B%86/FileOut/FMFModel.m"
-                  timestampString = "549213053.525256"
+                  timestampString = "554893727.358734"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "468"
                   endingLineNumber = "468"
-                  offsetFromSymbolStart = "39">
+                  offsetFromSymbolStart = "52">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -73,12 +73,12 @@
                   moduleName = "VideoDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maomao/Desktop/day%20by%20day/VideoDemo/VideoDemo/%E8%A7%86%E9%A2%91%E9%87%87%E9%9B%86/FileOut/FMFModel.m"
-                  timestampString = "549213053.528169"
+                  timestampString = "554893727.360339"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "468"
                   endingLineNumber = "468"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "24">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -88,12 +88,12 @@
                   moduleName = "VideoDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maomao/Desktop/day%20by%20day/VideoDemo/VideoDemo/%E8%A7%86%E9%A2%91%E9%87%87%E9%9B%86/FileOut/FMFModel.m"
-                  timestampString = "549213053.531099"
+                  timestampString = "554893727.361944"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "468"
                   endingLineNumber = "468"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "20">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -105,12 +105,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/FileOut/FMFModel.m"
-            timestampString = "549213053.4809541"
+            timestampString = "549340888.583802"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "434"
             endingLineNumber = "434"
-            landmarkName = "-getCameraDeviceWithPosition:"
+            landmarkName = "-captureOutput:didFinishRecordingToOutputFileAtURL:fromConnections:error:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -121,7 +121,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/AVAssetWriter/FMWModel.m"
-            timestampString = "549213053.4810129"
+            timestampString = "549340888.583859"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "340"
@@ -147,7 +147,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VideoDemo/&#x89c6;&#x9891;&#x538b;&#x7f29;/TQVideoDecodeController.m"
-            timestampString = "549213053.481244"
+            timestampString = "549340888.58407"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -162,13 +162,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VideoDemo/&#x89c6;&#x9891;&#x91c7;&#x96c6;/AVAssetWriter/AVAssetWriteManager.m"
-            timestampString = "549213053.481464"
+            filePath = "VideoDemo/&#x89c6;&#x9891;&#x64ad;&#x653e;/TQMPMoviePlayerController.m"
+            timestampString = "554893727.319657"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
-            landmarkName = "-setUpWriter"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "-loadStateDidChange:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

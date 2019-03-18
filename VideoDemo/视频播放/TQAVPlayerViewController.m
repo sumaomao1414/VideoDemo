@@ -59,7 +59,7 @@
     avPalyer = [[AVPlayerViewController alloc]init];
     
     avPalyer.player = [[AVPlayer alloc]initWithURL:[NSURL URLWithString:@"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"]];
-    
+    //http://192.168.10.25:8086/upload/clueNotice/mp4/2018/8/2/16132245565.mp4
     avPalyer.view.frame = CGRectMake(0, 64, self.view.frame.size.width, 400);
     
     [self.view addSubview:avPalyer.view];

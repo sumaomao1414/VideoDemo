@@ -53,11 +53,12 @@
     self.title = @"MPMoviePlayerController";
     
     //网络
-    mpPlayer = [[MPMoviePlayerController alloc]initWithContentURL:[NSURL URLWithString:@"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"]];
+    //mpPlayer = [[MPMoviePlayerController alloc]initWithContentURL:[NSURL URLWithString:@"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"]];
     
     //本地
-//    NSString* _moviePath= @"/Users/maomao/Desktop/day by day/VideoDemo/VideoDemo/123456.mp4";
-//    mpPlayer=[[MPMoviePlayerController alloc]initWithContentURL:[NSURL fileURLWithPath:_moviePath]];
+    NSString* _moviePath= @"/Users/maomao/Desktop/day by day/VideoDemo/VideoDemo/123456.mp4";
+    mpPlayer=[[MPMoviePlayerController alloc]initWithContentURL:[NSURL fileURLWithPath:_moviePath]];
+    mpPlayer.movieSourceType = MPMovieSourceTypeFile;
     
     //直播
 //    NSURL* url = [NSURL URLWithString:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"];
